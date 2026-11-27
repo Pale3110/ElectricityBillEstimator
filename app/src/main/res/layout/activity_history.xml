@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The list itself -->
+    <ListView
+        android:id="@+id/listBills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Message shown only when the list is empty -->
+    <TextView
+        android:id="@+id/tvEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="@string/empty_list"
+        android:textSize="16sp" />
+</FrameLayout>
